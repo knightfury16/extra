@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    
+    <div id="container">
+
+        <h1>Oredoo Sub-system</h1>
+        <button id="newCustomer">New customer</button>
+        <button id="showAll">Show all</button>
+
+        <div id="addCustomer" style="display: none">
+
+            <h1>New Customer Form</h1>
+
+            <form id="myForm" >
+                <input type="text" id="name" placeholder="Name">
+                <input type="number" id="QID" placeholder="QID">
+                <input type="text" id="city" placeholder="City">
+                <input type="text" id="country" placeholder="Country">
+            </form>
+            <button id="save">Save</button>
+            
+        </div>
+
+        <div id="all" style="display: none" >
+            <table id="result" border="1px"></table>
+        </div>
+
+
+        <div id="discount" style="display: none">
+            <h1>Apply Discount</h1>
+            <span>Name</span><input id="disName" type="text" placeholder="Name">
+            <span>QID</span><input id="disQid" type="text" placeholder="QID">
+            <input id="disVal" type="text" placeholder="Discount%">
+
+            <button id="disButton" >Apply Discount</button>
+        </div>
+
+ 
+
+    </div>
+
+
+
+    <script src="exam.js"></script>
+</body>
+</html>
