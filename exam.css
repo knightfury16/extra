@@ -1,0 +1,37 @@
+#container {
+  background-color: rgb(231, 212, 212);
+  width: 50%;
+  text-align: center;
+   align-content: center; 
+  margin: auto;
+}
+
+
+.but {
+  font-size: large;
+  background-color: rgb(241, 192, 175);
+  border-style: solid;
+  border-radius: 4mm;
+}
+
+
+.in {
+  font-size: medium;
+}
+
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: gainsboro;
+}
+
+#result {
+  width: 100%;
+  background-color: azure;
+}
