@@ -11,25 +11,32 @@
     <div id="container">
 
         <h1>Oredoo Sub-system</h1>
-        <button id="newCustomer">New customer</button>
-        <button id="showAll">Show all</button>
+        <button class="but" id="newCustomer">New customer</button>
+        <button class="but" id="showAll">Show all</button>
 
         <div id="addCustomer" style="display: none">
 
             <h1>New Customer Form</h1>
 
             <form id="myForm" >
-                <input type="text" id="name" placeholder="Name">
-                <input type="number" id="QID" placeholder="QID">
-                <input type="text" id="city" placeholder="City">
-                <input type="text" id="country" placeholder="Country">
+                <input class="in" type="text" id="name" placeholder="Name">
+                <input class="in" type="number" id="QID" placeholder="QID">
+                <input class="in" type="text" id="city" placeholder="City">
+                <input class="in" type="text" id="country" placeholder="Country">
             </form>
-            <button id="save">Save</button>
+
+            <hr>
+            <button class="but" id="save">Save</button>
             
         </div>
 
+        <hr>
+
         <div id="all" style="display: none" >
             <table id="result" border="1px"></table>
+
+            <br>
+            <hr>
         </div>
 
 
@@ -39,8 +46,13 @@
             <span>QID</span><input id="disQid" type="text" placeholder="QID">
             <input id="disVal" type="text" placeholder="Discount%">
 
-            <button id="disButton" >Apply Discount</button>
+            <button class="but" id="disButton" >Apply Discount</button>
+
+            <br>
+            <hr>
         </div>
+
+
 
  
 
